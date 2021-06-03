@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 locals {
-  name        = "conan"
+  name        = "failboat"
   environment = terraform.workspace
 
   # This is the convention we use to know what belongs to each other

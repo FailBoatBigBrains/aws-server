@@ -27,7 +27,7 @@ module "ec2_cluster" {
   associate_public_ip_address = true
 
   ami                    = "ami-0ac80df6eff0e70b5"
-  instance_type          = "t3.medium"
+  instance_type          = "t3.large"
   key_name               = local.name
   monitoring             = false
   subnet_id              = module.vpc.public_subnets[0]
